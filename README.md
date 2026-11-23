@@ -16,5 +16,5 @@
 
 ## Как посмотреть
 - [Открыть живой сайт](https://insafhalilov0-lab.github.io/dentistry/)
-- [Посмотреть код (HTML)](https://github.com/insafhalilov0-lab/dentistry/blob/main/stomatology.html)
-- [Посмотреть код (CSS)](https://github.com/insafhalilov0-lab/dentistry/blob/main/stomatology.css)
+- [Посмотреть код (HTML)](https://github.com/insafhalilov0-lab/dentistry/blob/main/index.html)
+- [Посмотреть код (CSS)](https://github.com/insafhalilov0-lab/dentistry/blob/main/style.css)
