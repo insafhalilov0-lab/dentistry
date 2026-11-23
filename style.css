@@ -11,11 +11,11 @@ body {
     line-height: 1.6;
 }
 
-.head {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 22px 6%;
+    padding: 22px 8%;
     background: #fff;
     border-bottom: 2px solid #cce7e4;
     position: sticky;
@@ -23,201 +23,272 @@ body {
     z-index: 10;
 }
 
-.brand {
+.logo {
     font-size: 26px;
+    font-weight: normal;
+    color: #444;
+}
+
+.logo span {
     font-weight: bold;
     color: #00796b;
 }
 
-.nav-menu a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #334455;
-    font-size: 16px;
+.contact-top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-.tel {
-    font-size: 1.2em;
+.phone {
+    font-size: 24px;
     font-weight: bold;
-    color: #334455;
+    color: #222;
 }
 
-.btn-head {
+.btn-app {
     background: #00796b;
     color: #fff;
-    padding: 12px 24px;
-    border-radius: 6px;
+    padding: 12px 25px;
     text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
     transition: 0.3s;
 }
 
-.btn-head:hover {
+.btn-app:hover {
     background: #00564b;
 }
 
-.banner {
+.hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 90px 6%;
-    gap: 50px;
+    padding: 100px 8%;
+    gap: 60px;
+    background: #f8fbff;
 }
 
-.banner-text {
-    width: 55%;
-}
-
-.banner-text h1 {
-    font-size: 3.2em;
-    margin-bottom: 25px;
-    color: #004d40;
-    line-height: 1.1;
-}
-
-.banner-text p {
-    font-size: 1.2em;
-    margin-bottom: 35px;
-    color: #556677;
-}
-
-.btn-banner {
-    background: #00796b;
-    color: #fff;
-    padding: 16px 32px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-.banner-img img {
-    width: 100%;
-    max-width: 450px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-
-.advantages {
-    padding: 80px 6%;
-    text-align: center;
-    background: #fff;
-}
-
-.advantages h2 {
-    font-size: 2.6em;
-    color: #004d40;
-    margin-bottom: 50px;
-}
-
-.adv-grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 35px;
-}
-
-.adv-item {
-    background: #f0f7f6;
-    padding: 35px 25px;
-    border-radius: 10px;
+.hero-text {
     flex: 1;
 }
 
-.adv-item h3 {
-    color: #00796b;
-    margin-bottom: 15px;
-    font-size: 1.3em;
+.hero-text h1 {
+    font-size: 3.5em;
+    color: #111;
+    margin-bottom: 25px;
+    line-height: 1.1;
 }
 
-.services-section {
-    padding: 80px 6%;
+.hero-text p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.btn-hero {
+    display: inline-block;
+    background: #00796b;
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    box-shadow: 0 10px 20px rgba(0, 121, 107, 0.3);
+    transition: 0.3s;
+}
+
+.btn-hero:hover {
+    background: #00564b;
+}
+
+.hero-img {
+    flex: 1;
+}
+
+.hero-img img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.features {
+    background: #0f172a;
+    color: #fff;
+    padding: 80px 8%;
     text-align: center;
 }
 
-.services-section h2 {
-    font-size: 2.6em;
-    color: #004d40;
-    margin-bottom: 50px;
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 60px;
+    font-weight: normal;
 }
 
-.serv-grid {
+.features-row {
     display: flex;
-    justify-content: center;
-    gap: 35px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
-.serv-card {
-    background: #fff;
-    padding: 35px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.04);
-    width: 300px;
+.feat {
+    flex: 1;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 10px;
 }
 
-.serv-card h3 {
+.feat .icon {
+    display: block;
+    font-size: 30px;
+    color: #64b5f6;
+    margin-bottom: 15px;
+}
+
+.feat h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
-    color: #00796b;
 }
 
-.serv-card p {
-    color: #667788;
-    margin-bottom: 25px;
+.feat p {
+    color: #90a4ae;
     font-size: 0.95em;
 }
 
-.cost {
+.services {
+    padding: 100px 8%;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 60px;
+    color: #111;
+    font-weight: normal;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 30px 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.service-row:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-color: #00796b;
+    transform: translateY(-3px);
+}
+
+.serv-info h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #00796b;
+}
+
+.serv-info p {
+    color: #666;
+    font-size: 0.95em;
+}
+
+.serv-price {
     font-size: 1.5em;
     font-weight: bold;
-    color: #004d40;
+    color: #111;
+    min-width: 150px;
+    text-align: right;
 }
 
 .form-section {
-    padding: 80px 6%;
     background: #00796b;
+    color: #fff;
+    padding: 80px 8%;
     text-align: center;
 }
 
 .form-section h2 {
-    color: #fff;
-    font-size: 2.6em;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.form-section p {
+    font-size: 1.1em;
     margin-bottom: 40px;
+    opacity: 0.9;
 }
 
-.form-block {
+.form {
     display: flex;
-    flex-direction: column;
-    max-width: 420px;
-    margin: 0 auto;
-    gap: 18px;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.form-block input {
-    padding: 16px;
-    border-radius: 6px;
+.form input {
+    padding: 18px;
     border: none;
-    font-size: 1.1em;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 1em;
     font-family: 'Verdana', sans-serif;
 }
 
-.btn-form {
-    padding: 16px;
-    background: #004d40;
+.form button {
+    padding: 18px 30px;
+    background: #0f172a;
     color: #fff;
     border: none;
-    border-radius: 6px;
-    font-size: 1.1em;
+    border-radius: 8px;
+    font-size: 1em;
     cursor: pointer;
-    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-.btn-form:hover {
-    background: #00332a;
+.form button:hover {
+    background: #1e293b;
 }
 
 footer {
-    background: #00332a;
-    color: #aadddd;
+    background: #111;
+    color: #777;
     text-align: center;
-    padding: 35px;
+    padding: 30px;
     font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .features-row {
+        flex-direction: column;
+    }
+    .service-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .serv-price {
+        text-align: center;
+    }
 }
